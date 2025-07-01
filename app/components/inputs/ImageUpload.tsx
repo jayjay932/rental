@@ -25,7 +25,7 @@ const ImageUpload: FC<ImageUploadProps> = ({ onChange, value }) => {
             onUpload={handleUpload}
             uploadPreset="djfn93j91"
             options={{
-                maxFiles: 1
+                maxFiles: 2
             }}
         >
             {({ open }) => {
